@@ -1,0 +1,512 @@
+
+
+/*page 1*/
+.header{
+  position:fixed;
+  width: 100%;
+  background-color: #FFFFFF;
+  top:0;
+  left:0;
+  right: 0;
+  padding:25px 0;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  z-index: 1;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header-items{
+  display: flex;
+  align-items: center;
+}
+
+.header-link{
+  padding: 12px 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #1D1D1D;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+
+}
+
+.header-link:hover{
+ background-color: #59bd5a;
+ color:#ffffff;
+}
+
+
+.header-btn {
+  margin-right: 30px;
+}
+
+.container {
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 0 5px; }
+}
+
+
+
+.search {
+  margin-top: 130px;
+}
+
+.search-input {
+  width: 100%;
+  height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #626262;
+  border: 0;
+  border-bottom: 1px solid #757575;
+  opacity: 0.5;
+}
+.restaurants{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  width:100%;
+}
+
+.photo{
+  width: 317px;
+  height: 256px;
+}
+
+.text-one{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1D1D1D
+}
+.text-two{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+}
+.text-three{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #1D1D1D;
+}
+.card{
+  background:rgba(17,117,117,0.04);
+  margin-bottom: 40px;
+
+}
+
+
+.restaurants-in-Moscow{
+  margin-top: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #1d1d1d;
+}
+
+.footer{
+  background-color: #262626;
+  display: flex;
+  width: 100%;
+  min-height: 550px;
+}
+.footer-logo {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+@media screen and (max-width:600px){
+  .footer-logo{
+    padding: 50px 0;
+  }
+
+}
+.footer-group{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer-item {
+  width: 33%;
+  margin: 40px 0 30px 0;
+
+
+}
+@media screen and (max-width: 600px) {
+  .footer-item {
+    width: 100%;
+    height: auto;
+    margin: 10px 0 5px 0; }
+}
+
+.footer-item p {
+  margin: 10px 0;
+}
+
+.footer-link{
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.footer-lang {
+  width: 70%;
+  background-color: #3b3b3b;
+}
+
+option{
+  background-color: #3b3b3b;
+}
+.no-arrow{
+  -webkit-appearance: none;
+}
+
+.footer-title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin: 20px 0;
+}
+span{
+  color:#49A144;
+}
+.footer-social{
+  margin: 10px 0;
+}
+.footer-social img{
+  margin-right:5px;
+}
+
+.footer-lang select{
+  width:100%;
+  position:relative;
+  border-radius: 2px;
+  padding: 15px 0 15px 40px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+  background:  url("../img/path.png") left 3px bottom 50%,url("../img/arrow.png") right 4px bottom 50%;
+  background-repeat: no-repeat;
+  cursor:pointer;
+  border:0;
+}
+
+.download{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.download img{
+  margin-right: 40px;
+}
+.footer-bottom{
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+}
+.btn-up {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+
+}
+.btn-img {
+  width: 80px;
+  height: 80px;
+}
+@media screen and (max-width: 768px){
+  .btn-img{
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 480px){
+  .btn-img{
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/*page 2*/
+.rest{
+  height: 364px;
+  margin-top: 80px;
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  background: url("../img/rest.png") no-repeat ;
+  background: cover;
+
+}
+
+.rest-group{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+max-width: 389px;
+height: 204px;
+margin-top: 80px;
+background-color: #ffffff;
+border-radius: 2px;
+box-shadow: 0 0 16px rgba(117, 117, 117, 0.2);
+}
+
+.rest-name-text1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #1D1D1D;
+}
+.rest-text2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #626262;
+}
+.rest-text3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  border: 1px solid black;
+  border-radius: 16px;
+  background: #262626;
+  color:#ffffff;
+}
+
+.rest-item{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.menu{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.line{
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.card-menu{
+  margin: 20px 10px 20px 0;
+  color: #626262;
+}
+.card-menu:first-child{
+  color:#327430;
+}
+.menu p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+}
+
+.snacks-text p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #1D1D1D;
+}
+.line2{
+  border-bottom:1px solid rgba(117, 117, 117, 1) ;
+  width:50px;
+  display: none;
+}
+.menu-img{
+  width: 170px;
+  height: 160px;
+}
+.menu-img-box{
+  display: flex;
+  align-items: flex-end;
+}
+.snacks{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin:30px 0 31px 0;
+}
+.snack-card{
+  width: 48%;
+  min-width: 307px;
+  margin-left: 16px;
+  margin-bottom: 49px;
+  display: flex;
+  justify-content: space-between;
+  border:1px solid rgba(117,117,117,0.2);
+  background:##F2F2F2;
+  height:160px;
+}
+@media (max-width: 992px) {
+  .snack-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .menu-img{
+    width: 200px;
+    height: 160px;
+  }
+}
+.holder{
+  width:100%;
+  height:16px;
+}
+.block{
+  display:none;
+}
+.holder:hover .block{
+  display:block;
+}
+
+.herring1  {
+  color:#1D1D1D ;
+  display: inline;
+}
+.herring2 {
+  color:#1D1D1D ;
+  display: none;
+}
+@media (max-width: 500px) {
+  .snack-card {
+    margin-bottom: 20px;
+    height:120px;
+    margin: 0;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+  }
+  .menu-img{
+    width: 101px;
+    height: 101px;
+  }
+  .snacks-text{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .menu{
+    display: none;
+  }
+  .herring1{
+    display: none;
+  }
+  .herring2{
+    display: inline;
+  }
+  .line2{
+    display: block;
+  }
+  .rest-group{
+    position:absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin:0;
+    bottom:0;
+
+  }
+  .rest-item{
+    width: 100%;
+  }
+  .rest-name-text1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+
+.snack-card:hover{
+  background:rgba(117,117,117,0.08);
+}
+
+.snack-text{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left:20px ;
+
+}
+.snack-text1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1D1D1D;
+}
+.snack-text2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #1D1D1D;
+}
+.snack-text3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #626262;
+  margin-top: -10px;
+}
+
+
+
